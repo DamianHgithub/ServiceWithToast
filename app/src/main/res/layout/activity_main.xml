@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".feature.MainActivity">
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_message"
         android:layout_width="wrap_content"
         android:background="@drawable/btn_messaage"
         android:layout_height="wrap_content"
