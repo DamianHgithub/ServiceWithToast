@@ -16,7 +16,7 @@ class ToastService: Service() {
         Handler(Looper.myLooper()!!).postDelayed({
             Toast.makeText(applicationContext, "Test Message from service.", Toast.LENGTH_SHORT).show()
             stopSelf()
-        }, 5000)
+        }, 60000)
 
         val mNotification = NotificationCompat.Builder(this, DIManager.channelID)
             .setContentTitle("Toast Service")
