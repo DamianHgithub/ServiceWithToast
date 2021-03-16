@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ToastService</string>
+    <string name="btn_message">Show Toast Message!</string>
 </resources>
